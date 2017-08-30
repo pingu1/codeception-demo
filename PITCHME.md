@@ -164,3 +164,10 @@ To get the XPath of an element
 - all failing tests will be reported in the report with the failing step
 - for failing tests, screenshot of the browser are saved in the `output` folder
 
+---
+
+### Useful reading
+
+- [Codeception official documentation](http://codeception.com/docs/01-Introduction)
+- [Codeception MultiDB extension](https://github.com/redmatter/Codeception-MultiDb)
+- [Codeception integration for Check Your Card Balance](https://git.datacandy.com/ms2/balance/tree/release/tests)
