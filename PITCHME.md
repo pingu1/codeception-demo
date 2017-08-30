@@ -4,6 +4,7 @@
 
 Codeception is a test/QA PHP framework built on top of PHPUnit.
 By default, Codeception focuses on 3 major test strategies
++++
 - unit tests
 - functional tests
 - acceptance tests
