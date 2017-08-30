@@ -84,6 +84,7 @@ By default, Codeception focuses on 3 major test strategies
 
 ```php
 <?php
+$I->amOnPage('/');
 $I->fillField('#input-username', 'John Dough');
 $I->click('Login');
 $I->see("Welcome");
@@ -144,7 +145,7 @@ $I->amConnectedToDb('Client'); // see DB config in suite YML file
 $I->haveInDb('table', ['data'], 'primary_key_name');
 ```
 
-_NOTE_: The `haveInDb()` function accepts a 4th argument to automatically remove data from DB when test is done. If set to false, you will have to manually remove the data with `haveDeletedFromDb()`.
+_NOTE_: The `haveInDb()` function accepts additional arguments, the 5th is used to automatically remove data from DB when test is done. If set to false, you will have to manually remove the data with `haveDeletedFromDb()`.
 
 ---
 
